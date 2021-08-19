@@ -9,6 +9,38 @@
     display: block;
   }
   
+  #pgjava{
+    margin-left: 17%;
+  }
+
+  #pgc{
+    margin-left: 21%;
+  }
+
+  #pgphyton{
+    margin-left: 10%;
+  }
+
+  #pgjavasc{
+    margin-left: 4.5%;
+  }
+
+  #pgcss{
+    margin-left: 17%;
+  }
+
+  #pgandroid{
+    margin-left: 6%;
+  }
+
+  #pghtml{
+    margin-left: 13%;
+  }
+
+  #pggit{
+    margin-left: 17%;
+  }
+
   .isection {
     width: 100% !important;
     border-style: none;

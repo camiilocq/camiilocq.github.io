@@ -2,12 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My HV</title>
+        <title>Camilo Castillo's resume</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&amp;display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="imgs/img-perfil-round.png">
+        
     </head>
     <body>
         <div class="row header-section section">
@@ -20,7 +22,7 @@
                   <span class="firstName">Juan Camilo</span>
                   <span class="lastName">Castillo</span>
                   <span class="description">
-                    Junior Web Developer &amp; Front-end
+                    Junior Developer &amp; Front-end
                   </span>
                 </div>
                 <div class="social">
@@ -143,7 +145,10 @@
                   <div class="col">
                     <span class="expertise-title">fast learning</span>
                     <span class="expertise-description">
-                      hola, this is a descriptiok maks kskas kamskac akmcaka makmckann
+                      Thanks to the learning method of the university, fast learning has become ingrained
+                      in my way of working, I consider this quality is very important for jobs, projects 
+                      and industry because with the constant advancement of technologies and tools this 
+                      factor is essential to keep updated.
                     </span>
                   </div>
                 </div>
@@ -152,7 +157,11 @@
                   <div class="col">
                     <span class="expertise-title">attitude</span>
                     <span class="expertise-description">
-                      hola, this is a descriptiok maks kskas kamskac akmcaka makmckann
+                      I think what identifies me the most is my attitude towards everything, I consider
+                      myself a very happy person and always with optimism, so I face difficulties and 
+                      problems in the best way. I consider this characteristic very important because 
+                      it allows me to have an excellent work environment. 
+
                     </span>
                   </div>
                 </div>
@@ -161,7 +170,11 @@
                   <div class="col">
                     <span class="expertise-title">work in groups</span>
                     <span class="expertise-description">
-                      This is a description for my work in groups
+                      I have always worked in groups, this practice or way of working I have developed 
+                      a lot in the classes seen since the projects were somewhat large and needed to 
+                      work with partners. I like this practice because we recognize roles within the 
+                      group, improve the way of communication and learn from other colleagues aspects 
+                      that are unknown.
                     </span>
                   </div>
                 </div>
@@ -172,21 +185,46 @@
             <div class="left-section-2">
               <div class="title-section rem col">
                 <span class="text-title">skills</span>
-                <span class="sub-title-text">What I am all about</span>
+                <span class="sub-title-text"></span>
               </div>
             </div>
-            <div class="right-section-2">
-              <div class="rem skill-content">
-                <span id="photoshopbtn" class="skill-btn">Java</span>
-                <span id="photoshopbtn" class="skill-btn">CSS</span>
-                <span id="photoshopbtn" class="skill-btn">C#</span>
-                <span id="photoshopbtn" class="skill-btn">Android</span>
-                <span id="photoshopbtn" class="skill-btn">Python</span>
-                <span id="photoshopbtn" class="skill-btn">Html</span>
-                <span id="photoshopbtn" class="skill-btn">Javascript</span>
-                <span id="photoshopbtn" class="skill-btn">Git</span>
+              <div class="right-section-2">
+                <div class="rem skill-content">
+                    <span id="javabtn" onclick="openModal('You clicked on: Java skill')" class="skill-btn">Java
+                      <progress id="pgjava" max="100" value="90"></progress>
+                      90%
+                    </span>
+                  <span id="cssbtn" onclick="openModal('You clicked on: CSS skill')" class="skill-btn">CSS
+                    <progress id="pgcss" max="100" value="85"> </progress>
+                    85%
+                  </span>
+                  <span id="cbtn" onclick="openModal('You clicked on: C# skill')"class="skill-btn">C#
+                    <progress id="pgc" max="100" value="70"> </progress>
+                    70%
+                  </span>
+                  <span id="androidbtn" onclick="openModal('You clicked on: Android skill')" class="skill-btn">Android
+                    <progress id="pgandroid" max="100" value="60"> </progress>
+                    60%
+                  </span>
+                  <span id="phytonbtn" onclick="openModal('You clicked on: Python skill')" class="skill-btn">Python
+                    <progress id="pgphyton" max="100" value="70"> </progress>
+                    70%
+                  </span>
+                  <span id="htmlbtn" onclick="openModal('You clicked on: Html skill')" class="skill-btn">Html
+                    <progress id="pghtml" max="100" value="85"> </progress>
+                    85%
+                  </span>
+                  <span id="javascriptbtn" onclick="openModal('You clicked on: Javascript skill')" class="skill-btn">Javascript
+                    <progress id="pgjavasc" max="100" value="85"> </progress>
+                    85%
+                  </span>
+                  <span id="gitbtn" onclick="openModal('You clicked on: Git skill')" class="skill-btn">Git
+                    <progress id="pggit" max="100" value="85"> </progress>
+                    85%
+                  </span>
+                </div>
               </div>
-            </div>
+
       
             <div id="modal" class="modal" style="display: none;">
               <div class="modal-content">
